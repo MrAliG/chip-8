@@ -16,7 +16,8 @@
  */
 
 #include <stdint.h>
-struct sys
+
+typedef struct sys
 {
     /* Currunt opcode */
     uint16_t opcode;
@@ -44,4 +45,4 @@ struct sys
 
     /* Keyboard 16 Keys */
     uint8_t kb[16];
-}
+}s_sys;
