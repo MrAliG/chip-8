@@ -16,7 +16,8 @@
  */
 
 #include <stdint.h>
-struct sys
+
+typedef struct sys
 {
     uint16_t opcode;
     uint8_t memory[4096];
@@ -29,4 +30,4 @@ struct sys
     uint16_t stack[16];
     uint16_t sp;
     uint8_t kb[16];
-}
+}s_sys;
